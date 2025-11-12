@@ -1,0 +1,25 @@
+FHIR Group ID: e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83
+----------------------------------------------------------------------------
+1. Bulk Data Kick-off Request:
+--------------------------
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/{GroupID}/$export
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83/$export?_type=Patient
+
+2. Bulk Data Status Request:
+----------------------------
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}
+
+3. Bulk Data File Request:
+---------------------------
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}/{outputID}
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}/{outputID}
+
+4. Bulk Data Delete Request (Cleanup):
+--------------------------------------
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/BulkRequest/{BulkRequestID}
+
+
+
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Patient/erXuFYUfucBZaryVksYEcMg3
